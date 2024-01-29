@@ -23,9 +23,9 @@ The approach to the dataset is to focus on the accidents that occured after the 
 
 By determining the cumulative fatal injuries for each make and model and subsequently dividing it by the total number of accidents, we obtain the safety ratio. Employing this metric allows us to identify the top three safest models per make and model.
 
-![Safety Ratios](./images/Safety-Ratio-Graph.jpg)
+![Safety Ratios](./images/Safety-Ratio-Graph.png)
 
-![Top 3](./images/Top-3-Safest.jpg)
+![Top 3](./images/Top-3-Safest.png)
 
 # Conclusion
 
