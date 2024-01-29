@@ -52,7 +52,7 @@ An analysis of each area could show a higher or lower likelihood of accidents or
 
 # For More Information 
 
-Provided are links to the [Jupyter Notebook](./Aircraft Analysis Notebook.ipynb), Presentation, and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysis/AircraftRiskAnalysis?publish=yes)
+Provided are links to the [Jupyter Notebook](./Aircraft-Analysis-Notebook.ipynb), Presentation, and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysis/AircraftRiskAnalysis?publish=yes)
 
 ## Repository Structure
 
