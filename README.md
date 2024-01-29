@@ -29,7 +29,7 @@ By determining the cumulative fatal injuries for each make and model and subsequ
 
 # Conclusion
 
-##Recommendations
+## Recommendations
 
 After conducting an analysis on the total fatal injuries associated with the Make and Model of aircraft, the study has identified three specific Makes and Models with the least risk of fatalities:
 
@@ -39,20 +39,27 @@ After conducting an analysis on the total fatal injuries associated with the Mak
 
 3: Cessna 172P
 
-## Limitations
+### Limitations
 
 - The correlation between the model of aircraft and total fatal injury does not imply causation.
 
 - In aviation safety there are usually multiple factors at hand not just the make and model such as human error
  
 
-## Next Steps
+### Next Steps
 Deeper exploration in the dataset may include more information to lower risks even more.Areas for futher exploration include: Geographical Impact, weather impact, and purpose of flight.
 An analysis of each area could show a higher or lower likelihood of accidents or sustained injuries.
 
+# For More Information 
 
+Provided are links to the [Jupyter Notebook](./Aircraft Analysis Notebook.ipynb), Presentation, and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysis/AircraftRiskAnalysis?publish=yes)
+
+## Repository Structure
+
+├── data
 ├── images
+├── README.md
+├── Presentation.pdf
+└── .ipynb
 
-├── Aircraft Analysis Notebook.ipynb
-├── Aircraft Analysis Presentation.pdf
-└── README.md
+
