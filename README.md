@@ -50,7 +50,9 @@ After conducting an analysis on the total fatal injuries associated with the Mak
 Deeper exploration in the dataset may include more information to lower risks even more.Areas for futher exploration include: Geographical Impact, weather impact, and purpose of flight.
 An analysis of each area could show a higher or lower likelihood of accidents or sustained injuries.
 
+
 ├── images
+
 ├── Aircraft Analysis Notebook.ipynb
 ├── Aircraft Analysis Presentation.pdf
 └── README.md
