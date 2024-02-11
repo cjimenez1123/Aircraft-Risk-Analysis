@@ -1,4 +1,4 @@
-![Airplane Banner](./images/Airplane-Banner.jpg)
+7![Airplane Banner](./images/Airplane-Banner.jpg)
 
 # Aircraft Risk Analysis
 
@@ -13,43 +13,64 @@ In doing so the company can make strategic and informative decisions on what to 
 
 ## Data Understanding
 
-A dataset from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023. Every aircraft in the data has an ID number to reference and includes information such as Make, Model, weather, purpose of flight and severity of injuries as an outcome.
+A [dataset](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023. Every aircraft in the data has an ID number to reference and includes information such as Make, Model, weather, purpose of flight and severity of injuries as an outcome.
 
 ## Data Preparation
 
-The approach to the dataset is to focus on the accidents that occured after the year 2000, then specifically investigate the make and models of airplanes with at least 100 accidents. Focusing at the total fatal injuries and total accidents to create a safety ratio metric we can use to compare models of airplanes.
+The dataset was carefully cleaned to streamline its focus. Unnecessary columns were removed, and records before the year 2000 were filtered out. While NaNs in the 'Number of Engines' column were filled by the most occuring value, duplicates and other NaN values were cleared. Lastly a 'Safety Ratio' column is created by Total Fatal Injuries divided by the Total Accidents to measure the severity of accidents in relation to their occurrence.
+
+The investigation zeroes in on three areas:
+
+Time-based Analysis: Examining connections between accidents and weather conditions.
+
+Location-based Analysis: Exploring accidents based on geographical location, specifically by state.
+
+Engine Count and Aircraft Make: Investigating the correlation between the number of engines and the make of the plane and amount of accidents and fatal injuries
+
+This approach ensures a clean and focused dataset for efficient analysis
+
 
 ## Exploratory Data Analysis
 
-By determining the cumulative fatal injuries for each make and model and subsequently dividing it by the total number of accidents, we obtain the safety ratio. Employing this metric allows us to identify the top three safest models per make and model.
+By determining the cumulative fatal injuries and subsequently dividing it by the total number of accidents, we obtain the safety ratio. Employing this metric on each area investigated, allows us to identify the higher risk areas that need more attention.
+ 
 
-![Safety Ratios](./images/Safety-Ratio-Graph.png)
+![Time Safety Ratio](./images/SR-per-Month.png)
 
-![Top 3](./images/Top-3-Safest.png)
+![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
+
+![SR Number of Engines](./images/SR-per-Number-of-Engines.png) ![SR Four Engine Makes](./images/SR-per-Four-Engine_Make.png)
+
 
 # Conclusion
 
 ## Recommendations
 
-After conducting an analysis on the total fatal injuries associated with the Make and Model of aircraft, the study has identified three specific Makes and Models with the least risk of fatalities.
-Through these findings choosing one of these three should provide the lowest risk investment when starting the business endeavour.
+1: Time-Based Safety Measures:
 
-1: Piper PA-18-150
+Leverage the insights derived from the dataset's time analysis to implement time-specific safety measures. Identify months with historically higher safety ratios and focus on targeted training programs and operational enhancements during these periods, and enhance communication protocols to address seasonal challenges.
 
-2: Cessna 180
+2: Regional Safety Initiatives:
 
-3: Cessna 172P
+Based on location-specific safety ratios, introduce region-specific safety initiatives. Collaborate with aviation authorities and local operators in states with lower safety ratios to address regional challenges. Share best practices, and tailor safety protocols to the unique characteristics of each location, thereby contributing to improved safety outcomes.
+
+3: Engine Configuration Awareness:
+
+Given the dataset's insights into the total fatal injuries, total accidents, and safety ratios; consider promoting the advantages of four-engine aircraft or higher in training modules and operational guidelines. Encourage the company to consider this information in their decision-making processes regarding fleet composition, maintenance planning, and overall risk mitigation strategies.
+
+With these recommendations with the time, location, and engine configuration insights provided by the dataset, these measures aim to address potential risk areas within the aviation industry. This approach enhances the effectiveness of risk mitigation strategies, fostering a safe industry, and continuous improvement across different areas of aviation operations.
 
 ### Limitations
 
-- The correlation between the model of aircraft and total fatal injury does not imply causation.
+- Correlations identified in the dataset do not necessarily imply causation, other factors not considered in the dataset may influence accident patterns
 
-- In aviation safety there are usually multiple factors at hand not just the make and model such as human error
+- In aviation safety there are usually multiple factors at hand such as human error and mechanical maintenence.
  
 
 ### Next Steps
-Deeper exploration in the dataset may include more information to lower risks even more. Areas for futher exploration include: Geographical Impact, weather impact, and purpose of flight.
-An analysis of each area could show a higher or lower likelihood of accidents or sustained injuries.
+Deeper exploration may include more information to lower risks even more. Areas for futher exploration in the dataset include, weather, and purpose of flight.
+
+Additionally, a new investigation of human factors or the occurances of maintenance could also show a higher or lower likelihood of accidents or sustained injuries.
 
 # For More Information 
 
