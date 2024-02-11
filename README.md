@@ -17,27 +17,33 @@ A [dataset](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-
 
 ## Data Preparation
 
-The dataset was carefully cleaned to streamline its focus. Unnecessary columns were removed, and records before the year 2000 were filtered out. While NaNs in the 'Number of Engines' column were filled by the most occuring value, duplicates and other NaN values were cleared. Lastly a 'Safety Ratio' column is created by Total Fatal Injuries divided by the Total Accidents to measure the severity of accidents in relation to their occurrence.
+The dataset was carefully cleaned to streamline its focus on airplanes. Unnecessary columns were removed, and records before the year 2010 were filtered out for more recent trends. While NaNs in the 'Number of Engines' column were filled by the most occuring value, duplicates and other NaN values were cleared. Lastly a 'Safety Ratio' column is created by Total Fatal Injuries divided by the Total Accidents to measure the severity of accidents in relation to their occurrence.
 
 The investigation zeroes in on three areas:
 
-Time-based Analysis: Examining connections between accidents and weather conditions.
+Time-based Analysis: Examining connections of accidents and fatalities during the year by months.
 
-Location-based Analysis: Exploring accidents based on geographical location, specifically by state.
+Location-based Analysis: Exploring accidents and fatalities based on geographical location, specifically by state.
 
-Engine Count and Aircraft Make: Investigating the correlation between the number of engines and the make of the plane and amount of accidents and fatal injuries
+Engine Count and Aircraft Make: Investigating the correlation between the number of engines and the amount of accidents and fatalities. 
 
 This approach ensures a clean and focused dataset for efficient analysis
 
 
 ## Exploratory Data Analysis
 
-By determining the cumulative fatal injuries and subsequently dividing it by the total number of accidents, we obtain the safety ratio. Employing this metric on each area investigated, allows us to identify the higher risk areas that need more attention.
+In each area of investigation graphs were made for Total Accidents, Total Fatal Injuries, and the Total Fatal Injuries/Total Accident Ratio labeled as "Safety Ratio". A deeper exploration into Makes of airplanes was included to specifically reinforce results found from the number of engine area of investigation. 
+
+Employing this safety ratio metric on each area investigated, allows us to identify the higher and lower risk areas which gives us more insight to mitigate potential risks for future investments.
  
+#### Time
 
 ![Time Safety Ratio](./images/SR-per-Month.png)
 
+#### Location
 ![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
+
+#### Number of Engines and Engine Makes
 
 ![SR Number of Engines](./images/SR-per-Number-of-Engines.png) 
 
