@@ -39,7 +39,9 @@ By determining the cumulative fatal injuries and subsequently dividing it by the
 
 ![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
 
-![SR Number of Engines](./images/SR-per-Number-of-Engines.png) ![SR Four Engine Makes](./images/SR-per-Four-Engine_Make.png)
+![SR Number of Engines](./images/SR-per-Number-of-Engines.png) 
+
+![SR Four Engine Makes](./images/SR-per-Four-Engine-Make.png)
 
 
 # Conclusion
@@ -74,7 +76,7 @@ Additionally, a new investigation of human factors or the occurances of maintena
 
 # For More Information 
 
-Provided are links to the [Jupyter Notebook](./Aircraft-Analysis-Notebook.ipynb), [Presentation](./Aircraft-Risk-Analysis-Presentation.pdf), and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysis/AircraftRiskAnalysis?publish=yes)
+Provided are links to the [Jupyter Notebook](./Aircraft-Analysis-Notebook.ipynb), [Presentation](./Aircraft-Risk-Analysis-Presentation.pdf), and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysisProject/AnalysisDashboard?publish=yes)
 
 ## Repository Structure
 
