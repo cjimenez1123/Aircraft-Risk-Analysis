@@ -41,11 +41,22 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 ![Time Safety Ratio](./images/SR-per-Month.png)
 
 #### Location
+**Total Fatal Injuries/Total Accident Ratio per State**
 ![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
 
-#### Number of Engines and Engine Makes
+#### Number of Engines
 
-![SR Number of Engines](./images/SR-per-Number-of-Engines.png) 
+![TA per Number of Engines](./images/TA-per-Number-of-Engines.png)
+
+![TFI per Number of Engines](./images/TFI-per-Number-of-Engines.png)
+
+![SR Number of Engines](./images/SR-per-Number-of-Engines.png)
+
+#### Deeper Dive into Four Engine Makes 
+
+![TA Four Engine Make](./images/TA-Four-Engine-Make.png)
+
+![TFI Four Engine Make](/images/TFI-Four-Engine-Make.png)
 
 ![SR Four Engine Makes](./images/SR-per-Four-Engine-Make.png)
 
@@ -88,7 +99,7 @@ Provided are links to the [Jupyter Notebook](./Aircraft-Analysis-Notebook.ipynb)
 
 ```
 ├── images
-├── Aircraft-Analysis_Notebook.ipynb
+├── Aircraft-Risk-Analysis-Notebook.ipynb
 ├── Aircraft-Risk-Analysis-Presentation.pdf
 ├── README.md
 └── __init__.py
