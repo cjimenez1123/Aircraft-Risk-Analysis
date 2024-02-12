@@ -1,4 +1,4 @@
-7![Airplane Banner](./images/Airplane-Banner.jpg)
+![Airplane Banner](./images/Airplane-Banner.jpg)
 
 # Aircraft Risk Analysis
 
@@ -38,9 +38,14 @@ Employing this safety ratio metric on each area investigated, allows us to ident
  
 #### Time
 
+![TA per Month](./images/TA-per-Month.png)
+
 ![Time Safety Ratio](./images/SR-per-Month.png)
 
 #### Location
+
+![TA per State](./images/TA-per-State.png)
+
 **Total Fatal Injuries/Total Accident Ratio per State**
 ![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
 
@@ -48,15 +53,12 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 
 ![TA per Number of Engines](./images/TA-per-Number-of-Engines.png)
 
-![TFI per Number of Engines](./images/TFI-per-Number-of-Engines.png)
-
 ![SR Number of Engines](./images/SR-per-Number-of-Engines.png)
 
 #### Deeper Dive into Four Engine Makes 
 
 ![TA Four Engine Make](./images/TA-Four-Engine-Make.png)
 
-![TFI Four Engine Make](/images/TFI-Four-Engine-Make.png)
 
 ![SR Four Engine Makes](./images/SR-per-Four-Engine-Make.png)
 
@@ -67,17 +69,17 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 
 1: Time-Based Safety Measures:
 
-Leverage the insights derived from the dataset's time analysis to implement time-specific safety measures. Identify months with historically higher safety ratios and focus on targeted training programs and operational enhancements during these periods, and enhance communication protocols to address seasonal challenges.
+Leverage the insights derived from the dataset's time analysis to implement time-specific safety measures. Months with historically higher safety ratios, specifically in the winter and spring seasons, can be focused on with targeted training programs and operational enhancements during these periods, and enhance communication protocols to address seasonal challenges. The results from the recommended measures can be then applied to summer months, reducing the overall total accidents.
 
 2: Regional Safety Initiatives:
 
-Based on location-specific safety ratios, introduce region-specific safety initiatives. Collaborate with aviation authorities and local operators in states with lower safety ratios to address regional challenges. Share best practices, and tailor safety protocols to the unique characteristics of each location, thereby contributing to improved safety outcomes.
+Based on location-specific safety ratios, introduce region-specific safety initiatives. Collaborating with aviation authorities and local operators in states with lower safety ratios to address regional challenges. Sharing best practices, and tailoring safety protocols to the unique characteristics of each location, could contribute to improved safety outcomes. Applying the learned practices and protocols especially in high traffic areas such as California, Texas, and Florida could greatly reduce the amount of accidents and fatal injuries.
 
 3: Engine Configuration Awareness:
 
-Given the dataset's insights into the total fatal injuries, total accidents, and safety ratios; consider promoting the advantages of four-engine aircraft or higher in training modules and operational guidelines. Encourage the company to consider this information in their decision-making processes regarding fleet composition, maintenance planning, and overall risk mitigation strategies.
+Given the dataset's insights into the total accidents,total fatal injuries, and safety ratios; consider the advantages of four-engine aircraft or higher in training modules and operational guidelines. Highly encourage the company to consider this information in their decision-making processes regarding fleet composition, maintenance planning, and overall risk mitigation strategies.
 
-With these recommendations with the time, location, and engine configuration insights provided by the dataset, these measures aim to address potential risk areas within the aviation industry. This approach enhances the effectiveness of risk mitigation strategies, fostering a safe industry, and continuous improvement across different areas of aviation operations.
+With these recommendations with the time, location, and engine configuration insights provided by the dataset, these measures aim to address potential risk areas within the introduction of the aviation industry. This approach enhances the effectiveness of risk mitigation strategies, fostering a safe industry, and continuous improvement across different areas aviation operations.
 
 ### Limitations
 
@@ -87,13 +89,14 @@ With these recommendations with the time, location, and engine configuration ins
  
 
 ### Next Steps
+
 Deeper exploration may include more information to lower risks even more. Areas for futher exploration in the dataset include, weather, and purpose of flight.
 
 Additionally, a new investigation of human factors or the occurances of maintenance could also show a higher or lower likelihood of accidents or sustained injuries.
 
 # For More Information 
-
-Provided are links to the [Jupyter Notebook](./Aircraft-Analysis-Notebook.ipynb), [Presentation](./Aircraft-Risk-Analysis-Presentation.pdf), and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysisProject/AnalysisDashboard?publish=yes)
+To see more visualizations, please check the Jupyter Notebook and the Tableau Dashboard.
+Provided are links to the [Jupyter Notebook](./Aircraft-Risk-Analysis-Notebook.ipynb), [Presentation](./Aircraft-Risk-Analysis-Presentation.pdf), and [Tableau](https://public.tableau.com/app/profile/christopher.jimenez8117/viz/AircraftRiskAnalysisProject/AnalysisDashboard?publish=yes)
 
 ## Repository Structure
 
