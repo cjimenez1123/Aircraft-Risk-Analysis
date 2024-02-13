@@ -46,8 +46,7 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 
 ![TA per State](./images/TA-per-State.png)
 
-**Total Fatal Injuries/Total Accident Ratio per State**
-![State Safety Ratio Heat Map](./images/SR-per-State-Heat-Map.png)
+![SR per State](./images/SR-per-State.png)
 
 #### Number of Engines
 
@@ -58,7 +57,6 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 #### Deeper Dive into Four Engine Makes 
 
 ![TA Four Engine Make](./images/TA-Four-Engine-Make.png)
-
 
 ![SR Four Engine Makes](./images/SR-per-Four-Engine-Make.png)
 
