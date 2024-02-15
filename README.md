@@ -55,25 +55,25 @@ Employing this safety ratio metric on each area investigated, allows us to ident
 
 1: Time-Based Safety Measures:
 
-	- Targeted training programs, extra safety procedures, or enhanced communication protocols
+- Targeted training programs, extra safety procedures, or enhanced communication protocols
 
-	- Apply Successful measures from Winter and Spring months to improve safety in Summer season
+- Apply Successful measures from Winter and Spring months to improve safety in Summer season
 
 Leverage the insights derived from the dataset's time analysis to implement time-specific safety measures. Months with historically higher safety ratios, specifically in the winter and spring seasons, can be focused on with targeted training programs and operational enhancements during these periods, and enhance communication protocols to address seasonal challenges. The results from the recommended measures can be then applied to summer months, reducing the overall total accidents.
 
 2: Regional Safety Initiatives:
 
-	- Collaborate with aviation authorities and local operators in states with lower ratios
+- Collaborate with aviation authorities and local operators in states with lower ratios
 	
-	- Tailor safety protocols to address unique challenges in each region
+- Tailor safety protocols to address unique challenges in each region
 
 Based on location-specific safety ratios, introduce region-specific safety initiatives. Collaborating with aviation authorities and local operators in states with lower safety ratios to address regional challenges. Sharing best practices, and tailoring safety protocols to the unique characteristics of each location, could contribute to improved safety outcomes. Applying the learned practices and protocols especially in high traffic areas such as California, Texas, and Florida could greatly reduce the amount of accidents and fatal injuries.
 
 3: Engine Configuration Awareness:
 
-	- Consider purchasing airplane models with Four or more engines
+- Consider purchasing airplane models with Four or more engines
 
-	- Multiple Engines have decreased the likelihood of accidents therefore less fatalities
+- Multiple Engines have decreased the likelihood of accidents therefore less fatalities
 
 Given the dataset's insights into the total accidents,total fatal injuries, and safety ratios; consider the advantages of four-engine aircraft or higher in training modules and operational guidelines. Highly encourage the company to consider this information in their decision-making processes regarding fleet composition, maintenance planning, and overall risk mitigation strategies.
 
